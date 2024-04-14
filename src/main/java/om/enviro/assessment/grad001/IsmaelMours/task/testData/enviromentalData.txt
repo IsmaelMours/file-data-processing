@@ -1,0 +1,16 @@
+Date,Location,Temperature (°C),Humidity (%),Air Quality Index
+2022-01-01,New York,10,60,50
+2022-01-02,New York,12,58,55
+2022-01-03,New York,11,62,52
+2022-01-04,New York,9,64,48
+2022-01-05,New York,8,65,45
+2022-01-01,Los Angeles,20,55,45
+2022-01-02,Los Angeles,22,52,42
+2022-01-03,Los Angeles,21,54,40
+2022-01-04,Los Angeles,19,57,38
+2022-01-05,Los Angeles,18,60,35
+2022-01-01,Chicago,5,70,60
+2022-01-02,Chicago,7,68,58
+2022-01-03,Chicago,6,72,55
+2022-01-04,Chicago,4,74,52
+2022-01-05,Chicago,3,75,50
