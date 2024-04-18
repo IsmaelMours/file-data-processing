@@ -46,6 +46,7 @@ public class DataController {
         }
     }
 
+
     @GetMapping("/results")
     public ResponseEntity<List<ProcessedData>> getAllData() {
         List<ProcessedData> processedDataList = dataService.getAllData();

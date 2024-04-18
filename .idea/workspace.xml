@@ -5,16 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b70e965c-6261-431b-aee7-a5ac751ee6f8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/om/enviro/assessment/grad001/IsmaelMours/task/controller/DataController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/om/enviro/assessment/grad001/IsmaelMours/task/exception/DuplicateDataException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/om/enviro/assessment/grad001/IsmaelMours/task/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/om/enviro/assessment/grad001/IsmaelMours/task/exception/InvalidFileFormatException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/om/enviro/assessment/grad001/IsmaelMours/task/model/ProcessedData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/om/enviro/assessment/grad001/IsmaelMours/task/repository/ProcessedDataRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/om/enviro/assessment/grad001/IsmaelMours/task/service/DataService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/om/enviro/assessment/grad001/IsmaelMours/task/testData/enviromentalData.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/om/enviro/assessment/grad001/IsmaelMours/task/exception/DuplicateDataException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/om/enviro/assessment/grad001/IsmaelMours/task/exception/DuplicateDataException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/om/enviro/assessment/grad001/IsmaelMours/task/service/DataService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/om/enviro/assessment/grad001/IsmaelMours/task/service/DataService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,25 +51,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/User/Documents/LGC/file-data-processing",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/Documents/LGC/file-data-processing&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;478f3a4c51824ad23cb50c1c60670c0f&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="om.enviro.assessment.grad001.IsmaelMours.task.exception" />
@@ -103,7 +100,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713111742816</updated>
-      <workItem from="1713111745123" duration="13954000" />
+      <workItem from="1713111745123" duration="14945000" />
+      <workItem from="1713168549808" duration="1605000" />
+      <workItem from="1713436679811" duration="844000" />
     </task>
     <servers />
   </component>
