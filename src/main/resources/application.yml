@@ -8,8 +8,9 @@ spring:
     database-platform: org.hibernate.dialect.H2Dialect
   
   h2:
-    console.enabled: false
-
+    console:
+      enabled: true  my
+  
   servlet:
     multipart:
       max-file-size: 50MB
@@ -17,9 +18,7 @@ spring:
 springdoc:
   default-produces-media-type: application/json
 
-
 server:
   servlet:
     context-path: /api/v1/
   port: 8081
-
