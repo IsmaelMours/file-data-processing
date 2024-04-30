@@ -1,5 +1,6 @@
 package om.enviro.assessment.grad001.IsmaelMours.task.controller;
 
+import lombok.RequiredArgsConstructor;
 import om.enviro.assessment.grad001.IsmaelMours.task.exception.InvalidFileFormatException;
 import om.enviro.assessment.grad001.IsmaelMours.task.model.ProcessedData;
 import om.enviro.assessment.grad001.IsmaelMours.task.service.DataService;
@@ -13,27 +14,20 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/file")
-
+@RequiredArgsConstructor
 public class DataController {
 
     private final DataService dataService;
-
-    public DataController(DataService dataService) {
-        this.dataService = dataService;
-    }
 
     @PostMapping("/upload")
     public ResponseEntity<String> uploadFile(@RequestParam("file") MultipartFile file) {
         try {
             dataService.processFile(file);
-            return ResponseEntity.status(HttpStatus.OK)
-                    .body("File uploaded successfully.");
+            return ResponseEntity.status(HttpStatus.OK).body("File uploaded successfully.");
         } catch (InvalidFileFormatException e) {
-            return ResponseEntity
-                    .status(HttpStatus.BAD_REQUEST).body(e.getMessage());
+            return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(e.getMessage());
         } catch (IOException e) {
-            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR)
-                    .body("Failed to upload file: " + e.getMessage());
+            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body("Failed to upload file: " + e.getMessage());
         }
     }
 
